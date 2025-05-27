@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RobloxLucy's Game Vault | Powered by Tide</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0e0e10;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 1rem;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #00bcd4;
+      animation: fadeIn 1s ease-out;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .game-card {
+      background: #1a1a1d;
+      padding: 1.5rem;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0, 188, 212, 0.15);
+      transition: transform 0.3s ease;
+      width: 220px;
+      text-align: center;
+    }
+
+    .game-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .game-card h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #00bcd4;
+    }
+
+    .game-card a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+      background: #00bcd4;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 0.5rem;
+      transition: background 0.3s;
+    }
+
+    .game-card a:hover {
+      background: #0097a7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    RobloxLucy's Game Vault
+  </header>
+
+  <main>
+    <div class="game-card">
+      <h2>ChromeDino</h2>
+      <a href="chromedino.html" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <h2>Cookie Clicker</h2>
+      <a href="cookie-clicker.html" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <h2>GeometryDash</h2>
+      <a href="geometrydash.html" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <h2>Ovo</h2>
+      <a href="ovo.html" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <h2>Slope</h2>
+      <a href="slope.html" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <h2>TimeShooter2</h2>
+      <a href="timeshooter2.html" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <h2>Tomb of the Mask</h2>
+      <a href="tomb-of-the-mask.html" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <h2>Wordle</h2>
+      <a href="wordle.html" target="_blank">Play Now</a>
+    </div>
+    <div class="game-card">
+      <h2>Browser</h2>
+      <a href="Helios-Offline.html" target="_blank">Open</a>
+    </div>
+  </main>
+
+  <footer>
+    provided by tidev3 | https://github.com/xXmizzeryXx/Tide
+  </footer>
+</body>
+</html>
